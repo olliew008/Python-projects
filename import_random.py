@@ -35,6 +35,7 @@ def main():
 
         if uguess == comp:
            print('yayyy', 'It took', count, 'attempts')
+           time.sleep(2)
            break
 
         elif uguess < comp:

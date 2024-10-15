@@ -16,7 +16,7 @@ def main():
     print('    O')
     time.sleep(0.5)
 
-    cus_game = input('Custom game?')
+    cus_game = input('Custom game? ')
 
     if cus_game in affirm:
 

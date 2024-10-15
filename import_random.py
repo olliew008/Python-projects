@@ -4,7 +4,19 @@ affirm = ['yes', 'y', 'ye']
 
 def main():
 
-    cus_game = input('Custom game? ')
+    print('Guessing Game')
+    time.sleep(1)
+    print(' _---_')
+    print('/     |')
+    print('      |')
+    print('     |')
+    print('    |')
+    print('    |')
+    print('     ')
+    print('    O')
+    time.sleep(0.5)
+
+    cus_game = input('Custom game?')
 
     if cus_game in affirm:
 

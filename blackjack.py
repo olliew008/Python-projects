@@ -6,6 +6,8 @@ print('Welcome to blackjack! You have £5000 to waste ;) ')
 card_categories = ['H', 'D', 'C', 'S']
 cards_list = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 deck = [(card, category) for category in card_categories for card in cards_list]
+global z
+
 
 ra = random.choice(deck)
 card, category = ra
@@ -31,6 +33,8 @@ def card_face():
 card_face()
 
 
+random.shuffle(deck)
+dealer_hand = deck.pop()
 
-dealer_hand = [rb.pop(), rb.pop()]
-player_hand = [rb.pop(), rb.pop()]
+print(dealer_hand)
+
